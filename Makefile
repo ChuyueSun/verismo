@@ -28,7 +28,7 @@ ${CURDIR}/source/target/target/release/verismo_main:
 ${CURDIR}/source/target/target/${DEBUG}/verismo_main: buildonly
 
 buildonly:
-	cd source/verismo_main && cargo verify --release --feature noverify
+	cd source/verismo_main && cargo verify --release --features noverify
 
 
 $(LINUX_OUT):
